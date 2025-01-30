@@ -1,19 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's Platter</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/b740202a2d.js" crossorigin="anonymous"></script>
+    <style>
+        @media screen and (max-width: 640px) {
+            .nav{
+                border-bottom: 1px solid #179800;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <header>
+    <header class="bg-[#EFEBE3]">
         <!-- navbar -->
-         <nav>
+        <nav class=" container flex justify-between items-center mx-auto md:pt-[42px] pt-[14px] md:mb-[90px] mb-[48px] nav">
+            <!-- Logo -->
+            <div class="pb-[14px] pl-[16px]">
+                <img src="./c2-assets/logo-header.png" alt="Nature's Planet">
+            </div>
+            <!-- Nav links -->
+            <div class="pl-[210px] hidden md:inline">
+                <ul class="flex justify-between items-center gap-[32px] text-xl text-black">
+                    <li><a href="">Product</a></li>
+                    <li><a href=""></a>Services</li>
+                    <li><a href=""></a>Contact Us</li>
+                </ul>
+            </div>
+            <!-- icons and buttons -->
+            <div class="hidden md:inline">
+                <div class="space-x-[24px] flex items-center justify-center">
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                    <div class="space-x-3">
+                        <a class="text-xl text-black py-[10px] px-[30px] border border-[#179800] rounded-xl"
+                            href=""><button>Login</button></a>
+                        <a class="text-xl text-white py-[10px] px-[30px] border border-[#179800] bg-[#179800] rounded-xl"
+                            href=""><button>Register</button></a>
+                    </div>
+                </div>
+            </div>
 
-         </nav>
+            <!-- hamburger for small devices -->
+            <div class="md:hidden pr-[16px] ">
+                <i class="fa-solid fa-bars fa-lg"></i>
+            </div>
+        </nav>
 
-         <!-- banner -->
-          
+        <!-- banner -->
+
+        <div class="container mx-auto">
+            <!-- Text section -->
+            <div class="text-center">
+                <h1 class="md:text-6xl text-3xl font-semibold mb-[32px]">
+                    Freshness <span class="text-[#179800]">You Can <br> Count</span> On, Prices You’ll Love!
+                </h1>
+                <p class="text-xl mb-[20px]">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve
+                    got you covered every day!
+                </p>
+            </div>
+            <!-- Image section -->
+            <div class="justify-self-center items-center">
+                <img src="./c2-assets/hero-vegetables.png" alt="">
+            </div>
+        </div>
+
     </header>
     <main>
 
@@ -22,4 +80,5 @@
 
     </footer>
 </body>
+
 </html>
