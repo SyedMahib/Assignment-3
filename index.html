@@ -36,18 +36,18 @@
         <nav
             class=" container flex justify-between items-center mx-auto md:pt-[42px] pt-[14px] md:mb-[90px] mb-[48px] nav">
             <!-- Logo -->
-             <div class="lg:hidden pl-[16px] pb-[14px]">
+            <div class="lg:hidden pl-[16px] pb-[14px]">
                 <img src="./c2-assets/Group.png" alt="">
-             </div>
+            </div>
             <div class="pb-[14px] pl-[16px] hidden lg:inline">
                 <img src="./c2-assets/logo-header.png" alt="Nature's Planet">
             </div>
             <!-- Nav links -->
             <div class="pl-[210px] hidden md:inline">
                 <ul class="flex justify-between items-center gap-[32px] text-xl text-black">
-                    <li><a href="">Product</a></li>
-                    <li><a href=""></a>Services</li>
-                    <li><a href=""></a>Contact Us</li>
+                    <li class="hover:text-[#179800]"><a href="">Product</a></li>
+                    <li class="hover:text-[#179800]"><a href="">Services</a></li>
+                    <li class="hover:text-[#179800]"><a href="">Contact Us</a></li>
                 </ul>
             </div>
             <!-- icons and buttons -->
@@ -56,9 +56,9 @@
                     <i class="fa-solid fa-magnifying-glass fa-xl cursor-pointer"></i>
                     <i class="fa-solid fa-cart-shopping fa-xl cursor-pointer"></i>
                     <div class="space-x-3">
-                        <a class="text-xl text-black py-[10px] px-[30px] border border-[#179800] rounded-xl"
+                        <a class="text-xl text-black py-[10px] px-[30px] border border-[#179800] rounded-xl hover:bg-[#179800] hover:text-white transition-all"
                             href=""><button>Login</button></a>
-                        <a class="text-xl text-white py-[10px] px-[30px] border border-[#179800] bg-[#179800] rounded-xl"
+                        <a class="text-xl text-white py-[10px] px-[30px] bg-[#179800] rounded-xl hover:bg-[#6ac762] transition-all"
                             href=""><button>Register</button></a>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                 </p>
             </div>
             <!-- Image section -->
-            <div class="justify-self-center items-center">
+            <div class="justify-self-center items-center animate-bounce">
                 <img src="./c2-assets/hero-vegetables.png" alt="">
             </div>
         </div>
@@ -98,7 +98,7 @@
             <!-- card container -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-[24px]">
                 <!-- card-1 -->
-                <div class="bg-[#EFEBE3] rounded-xl">
+                <div class="bg-[#EFEBE3] rounded-xl transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                     <div class="mx-auto pt-[32px]">
                         <div class="justify-self-center rounded-full bg-white p-[26px] mb-[24px]">
                             <img src="./c2-assets/service.png" alt="24/7 service">
@@ -115,7 +115,7 @@
                     </div>
                 </div>
                 <!-- card-2 -->
-                <div class="bg-[#EFEBE3] rounded-xl">
+                <div class="bg-[#EFEBE3] rounded-xl transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                     <div class="mx-auto pt-[32px]">
                         <div class="justify-self-center rounded-full bg-white p-[26px] mb-[24px]">
                             <img src="./c2-assets/delivery.png" alt="24/7 service">
@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <!-- card-3 -->
-                <div class="bg-[#EFEBE3] rounded-xl">
+                <div class="bg-[#EFEBE3] rounded-xl transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                     <div class="mx-auto pt-[32px]">
                         <div class="justify-self-center rounded-full bg-white p-[26px] mb-[24px]">
                             <img src="./c2-assets/healthy.png" alt="24/7 service">
@@ -162,7 +162,7 @@
                 <div class="md:grid md:grid-cols-12 grid-cols-1 gap-[24px] pb-36 ">
                     <!-- offer-card -->
                     <div
-                        class="relative col-span-4 bg-gradient-to-br from-[#52db3a] to-white rounded-lg h-[359px] lg:h-auto lg:w-auto lg:mx-0 mb-6 lg:mb-0">
+                        class="relative col-span-4 bg-gradient-to-br from-[#52db3a] to-white rounded-lg h-[359px] lg:h-auto lg:w-auto lg:mx-0 mb-6 lg:mb-0 transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                         <div class="absolute lg:top-[175px] lg:left-[250px] left-[140px] top-[120px]">
                             <img src="./c2-assets/vegetable-offer.png" alt="vegetable-offer">
                         </div>
@@ -178,7 +178,7 @@
                     <!-- multiple crads -->
                     <div class="grid grid-cols-2 md:grid-cols-3 col-span-7 gap-[23px] ">
                         <!-- small cards-1 -->
-                        <div class="bg-white rounded-lg">
+                        <div class="bg-white rounded-lg transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                             <div class="flex justify-start items-center lg:gap-3 gap-2 my-4 ml-4">
                                 <div class="bg-[#EFEBE3] rounded-lg">
                                     <img src="./c2-assets/onion.png" alt="onion" class="p-2 w-[65px] lg:w-auto">
@@ -192,7 +192,7 @@
                             </div>
                         </div>
                         <!-- small cards-2 -->
-                        <div class="bg-white rounded-lg h-[100px] lg:h-auto">
+                        <div class="bg-white rounded-lg h-[100px] lg:h-auto transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                             <div class="flex justify-start items-center lg:gap-3 gap-2 my-4 ml-4">
                                 <div class="bg-[#EFEBE3] rounded-lg">
                                     <img src="./c2-assets/tomato.png" alt="onion" class="p-2 w-[65px] lg:w-auto">
@@ -206,7 +206,7 @@
                             </div>
                         </div>
                         <!-- small cards-3 -->
-                        <div class="bg-white rounded-lg">
+                        <div class="bg-white rounded-lg transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                             <div class="flex justify-start items-center lg:gap-3 gap-2 my-4 ml-4">
                                 <div class="bg-[#EFEBE3] rounded-lg">
                                     <img src="./c2-assets/potato.png" alt="onion" class="p-2 w-[65px] lg:w-auto">
@@ -220,7 +220,7 @@
                             </div>
                         </div>
                         <!-- small cards-4 -->
-                        <div class="bg-white rounded-lg">
+                        <div class="bg-white rounded-lg transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                             <div class="flex justify-start items-center lg:gap-3 gap-2 my-4 ml-4">
                                 <div class="bg-[#EFEBE3] rounded-lg">
                                     <img src="./c2-assets/tomato.png" alt="Tomato" class="p-2 w-[65px] lg:w-auto">
@@ -234,7 +234,7 @@
                             </div>
                         </div>
                         <!-- small cards-5 -->
-                        <div class="bg-white rounded-lg">
+                        <div class="bg-white rounded-lg transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                             <div class="flex justify-start items-center lg:gap-3 gap-2 my-4 ml-4">
                                 <div class="bg-[#EFEBE3] rounded-lg">
                                     <img src="./c2-assets/onion.png" alt="onion" class="p-2 w-[65px] lg:w-auto">
@@ -248,7 +248,7 @@
                             </div>
                         </div>
                         <!-- small cards-6 -->
-                        <div class="bg-white rounded-lg">
+                        <div class="bg-white rounded-lg transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                             <div class="flex justify-start items-center lg:gap-3 gap-2 my-4 ml-4">
                                 <div class="bg-[#EFEBE3] rounded-lg">
                                     <img src="./c2-assets/tomato.png" alt="Tomato" class="p-2 w-[65px] lg:w-auto">
@@ -262,7 +262,7 @@
                             </div>
                         </div>
                         <!-- small cards-7 -->
-                        <div class="bg-white rounded-lg">
+                        <div class="bg-white rounded-lg transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                             <div class="flex justify-start items-center lg:gap-3 gap-2 my-4 ml-4">
                                 <div class="bg-[#EFEBE3] rounded-lg">
                                     <img src="./c2-assets/onion.png" alt="onion" class="p-2 w-[65px] lg:w-auto">
@@ -276,7 +276,7 @@
                             </div>
                         </div>
                         <!-- small cards-8 -->
-                        <div class="bg-white rounded-lg">
+                        <div class="bg-white rounded-lg transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                             <div class="flex justify-start items-center lg:gap-3 gap-2 my-4 ml-4">
                                 <div class="bg-[#EFEBE3] rounded-lg">
                                     <img src="./c2-assets/potato.png" alt="Potato" class="p-2 w-[65px] lg:w-auto">
@@ -290,7 +290,7 @@
                             </div>
                         </div>
                         <!-- small cards-9 -->
-                        <div class="bg-white rounded-lg hidden lg:inline">
+                        <div class="bg-white rounded-lg hidden lg:inline transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                             <div class="flex justify-start items-center lg:gap-3 gap-2  my-4 ml-4">
                                 <div class="bg-[#EFEBE3] rounded-lg">
                                     <img src="./c2-assets/potato.png" alt="potato" class="p-2 w-[65px] lg:w-auto">
@@ -317,7 +317,7 @@
             <!-- cards -->
             <div class="lg:flex gap-5">
                 <!-- card-1 -->
-                <div class="bg-[#115414] rounded-xl flex justify-between items-center lg:gap-14 gap-[14px] mb-4">
+                <div class="bg-[#115414] rounded-xl flex justify-between items-center lg:gap-14 gap-[14px] mb-4 transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                     <div>
                         <div class="lg:ml-[40px] lg:mb-[31px] mb-[17px]">
                             <img src="./c2-assets/dawat-logo.png" alt="dawat-logo">
@@ -335,7 +335,7 @@
                     </div>
                 </div>
                 <!-- card-2 -->
-                <div class="bg-[#102861] rounded-xl flex justify-between items-center lg:gap-14 gap-[14px] mb-4">
+                <div class="bg-[#102861] rounded-xl flex justify-between items-center lg:gap-14 gap-[14px] mb-4 transition ease-in-out hover:translate-y-4 hover:scale-90 duration-300">
                     <div>
                         <div class="lg:ml-[40px] ml-[18px] lg:mb-[31px] mb-[17px]">
                             <img src="./c2-assets/india-gate-logo.png" alt="india-gate-logo"
@@ -423,7 +423,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="./c2-assets/FAQ.png" alt="">
+                    <img src="./c2-assets/FAQ.png" alt="FAQ" class="w-[680px]">
                 </div>
             </div>
         </section>
@@ -445,7 +445,7 @@
                     <input type="text" placeholder="Enter Email"
                         class="py-[18px] pl-[18px]  bg-white text-black mb-[25px] lg:mb-[38px] rounded-lg w-[80%]">
                     <br>
-                    <a class="bg-[#179800] text-white text-xl py-[10px] px-[30px] rounded-lg"
+                    <a class="bg-[#179800] text-white text-xl py-[10px] px-[30px] rounded-lg animate-pulse"
                         href=""><button>Subscribe</button></a>
                 </div>
             </div>
