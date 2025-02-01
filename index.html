@@ -31,12 +31,15 @@
 </head>
 
 <body class="font-sora">
-    <header class="bg-[#EFEBE3] mb-[140px]">
+    <header class="bg-[#EFEBE3] lg:mb-[140px] mb-[48px]">
         <!-- navbar -->
         <nav
             class=" container flex justify-between items-center mx-auto md:pt-[42px] pt-[14px] md:mb-[90px] mb-[48px] nav">
             <!-- Logo -->
-            <div class="pb-[14px] pl-[16px]">
+             <div class="lg:hidden pl-[16px] pb-[14px]">
+                <img src="./c2-assets/Group.png" alt="">
+             </div>
+            <div class="pb-[14px] pl-[16px] hidden lg:inline">
                 <img src="./c2-assets/logo-header.png" alt="Nature's Planet">
             </div>
             <!-- Nav links -->
@@ -89,7 +92,7 @@
 
     <main>
         <!-- Services section -->
-        <section class="md:container lg:mx-auto mb-[140px] mx-4">
+        <section class="md:container lg:mx-auto lg:mb-[140px] mb-[48px] mx-4">
             <!-- section header -->
             <h1 class="lg:text-4xl text-[24px] font-semibold text-[#179800] mb-[48px]">Services</h1>
             <!-- card container -->
@@ -149,7 +152,7 @@
         </section>
 
         <!-- Popular Products -->
-        <section class="bg-[#EFEBE3]">
+        <section class="bg-[#EFEBE3]  mb-[10px]">
             <div class="md:container lg:mx-auto mx-4">
                 <!-- Section header -->
                 <h1 class="lg:text-4xl text-[24px] font-semibold text-[#179800] mb-[48px] pt-[140px]">
@@ -354,13 +357,13 @@
         </section>
 
         <!-- Frequently asked question -->
-        <section class="mt-[120px]  mx-4">
+        <section class="lg:mt-[100px] mb-0 mx-4">
             <div class="md:container mx-auto">
                 <h1 class="lg:text-4xl text-[24px] font-semibold text-[#179800] mb-[48px] pt-[140px]">
                     Frequently Asked Questions
                 </h1>
             </div>
-            <div class="md:container mx-auto lg:flex justify-between items-center">
+            <div class="md:container mx-auto lg:flex lg:flex-row flex flex-col-reverse justify-between items-center">
                 <div class="space-y-8">
                     <div class="collapse collapse-plus bg-base-300 rounded-lg">
                         <input type="radio" name="my-accordion-3" checked="checked" />
@@ -451,7 +454,7 @@
 
     <footer class="bg-[#179800]">
         <div
-            class="md:container lg:flex justify-between items-center gap-[158px] lg:mx-auto lg:pt-[300px] pt-[400px] pb-[140px] mx-4 space-y-12">
+            class="md:container lg:flex justify-between items-center gap-[158px] lg:mx-auto lg:pt-[300px] pt-[400px] pb-[140px] mx-4 space-y-14">
             <!-- logo and description -->
             <div>
                 <img src="./c2-assets/logo-footer.png" alt="logo-footer" class="mb-[12px]">
